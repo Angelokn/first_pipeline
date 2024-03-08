@@ -38,7 +38,7 @@ jobs:
           
   deploy-dev:
     needs: build
-    uses: angelokn/templates_pipeline/.github/workflows/demo-deploy.yml@main
+    uses: Angelokn/templates_pipeline/.github/workflows/demo-deploy.yml@main
     with:
       variavel-demo: "demo dev"
 
